@@ -1,0 +1,36 @@
+.aside-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 12px 0;
+  border-right: 1px solid #e1e1e1;
+}
+
+.nav-container {
+  background: #f2f0f0;
+  border-radius: 8px;
+  .nav_item {
+    width: 56px;
+    height: 51.81px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.nav-container:has(.active-link) {
+  text-decoration: none;
+
+  background: #e2e2ea;
+}
+
+.active-link {
+  text-decoration: none;
+  background: #e2e2ea;
+}
+
+.nav-container > .noactive-link {
+  text-decoration: none;
+  background: #e2e2ea;
+}
