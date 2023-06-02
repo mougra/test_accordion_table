@@ -1,6 +1,7 @@
 {
   "name": "test_accordion",
   "version": "0.1.0",
+  "homepage": "https://mougra/test_accordion",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,7 +15,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
-    "react-select": "^5.7.3",
     "sass": "^1.62.1",
     "styled-components": "^5.3.11",
     "styled-normalize": "^8.0.7",
@@ -25,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "gh-pages": "^5.0.0"
   }
 }
