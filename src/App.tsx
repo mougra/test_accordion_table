@@ -9,7 +9,7 @@ import './styled/global.scss'
 
 function App() {
   return (
-    <>
+    <div className='wrapper'>
       <Header />
       <div className='main-screen'>
         <Aside />
@@ -18,7 +18,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
-    </>
+    </div>
   )
 }
 

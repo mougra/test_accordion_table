@@ -20,6 +20,14 @@ ul {
   cursor: pointer;
   border: none;
 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #373745;
+
   .button-title {
     width: 212px;
     padding-left: 8px;
@@ -44,7 +52,7 @@ ul {
   .arrow-left {
     position: absolute;
     background-color: transparent;
-    top: 7px;
+    top: 4px;
     left: 0;
     width: 6px;
     height: 2px;
@@ -68,7 +76,7 @@ ul {
   .arrow-right {
     position: absolute;
     background-color: transparent;
-    top: 7px;
+    top: 4px;
     left: 4px;
     width: 6px;
     height: 2px;
