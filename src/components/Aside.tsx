@@ -5,7 +5,7 @@ function Aside() {
   return (
     <>
       <div className='aside-navigation'>
-        <Projecte link='/' />
+        <Projecte link='/test_accordion_table/' />
         <Projecte link='/NotFound' />
         <Projecte link='/NotFound' />
         <Projecte link='/NotFound' />

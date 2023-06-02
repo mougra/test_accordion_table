@@ -14,7 +14,7 @@ function App() {
       <div className='main-screen'>
         <Aside />
         <Routes>
-          <Route path='/' element={<Tasks />} />
+          <Route path='/test_accordion_table' element={<Tasks />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
