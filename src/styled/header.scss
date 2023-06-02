@@ -16,6 +16,16 @@
     gap: 8px;
     align-items: center;
 
+    .header_logo-title {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 120%;
+      letter-spacing: 0.005em;
+      color: #11142d;
+    }
+
     .header_logo-img {
       height: 40px;
       width: 40px;

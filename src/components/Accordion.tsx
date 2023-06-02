@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import AccordionItem from './AccordionItem'
 import data from '../data.json'
 import '../styled/accordion.scss'
+import { IData } from '../models'
 
 function Accordion() {
-  const [clicked, setClicked] = useState('0')
+  const [clicked, setClicked] = useState<any>(1)
 
   const handleToggle = (index: any) => {
     if (clicked === index) {
@@ -12,9 +13,10 @@ function Accordion() {
     }
     setClicked(index)
   }
+
   return (
     <ul className='accordion'>
-      {data.map((faq: any, index: any) => (
+      {data.map((faq: IData, index: any) => (
         <AccordionItem
           key={index}
           faq={faq}

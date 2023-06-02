@@ -1,0 +1,75 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 36px;
+  padding-top: 41px;
+
+  h2 {
+    margin: 0;
+  }
+
+  .table-info-title {
+    background: #f7f7fc;
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 16px 0 16px 10px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142d;
+    text-align: center;
+
+    &.table-info-title-working {
+      background: #71faca;
+    }
+
+    .table_date {
+      flex: 71;
+    }
+
+    .table_cipher-tasks {
+      flex: 54;
+    }
+    .table_cipher-project {
+      flex: 55;
+    }
+    .table_task {
+      flex: 75;
+    }
+    .table_status {
+      flex: 101;
+    }
+    .table_responsible {
+      flex: 87;
+    }
+    .table_reassign {
+      flex: 96;
+    }
+    .table_priority {
+      flex: 73;
+    }
+    .table_comment {
+      flex: 87;
+    }
+    .table_plan-time {
+      flex: 59;
+    }
+    .table_fact-time {
+      flex: 59;
+    }
+    .table_start {
+      flex: 76;
+    }
+    .table_finish {
+      flex: 76;
+    }
+  }
+}

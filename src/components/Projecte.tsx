@@ -9,7 +9,6 @@ interface ProjecteProps {
 function Projecte({ link }: ProjecteProps) {
   return (
     <div className='nav-container'>
-      {/* <img src={projectList} alt='Display card line' className='main-app-svg' /> */}
       <NavLink
         to={link}
         className={({ isActive }) =>
